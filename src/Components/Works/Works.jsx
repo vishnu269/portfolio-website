@@ -11,14 +11,15 @@ import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
 const Works = () => {
 
- // context
+//  context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   return (
       <div className="works">
+          {/* dark mode */}
         <div className="awesome">
-            <span>Works for All these</span>
+            <span  style={{ color: darkMode ? "white" : "" }}>Works for All these</span>
             <span>Brands & Clients</span>
             <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem

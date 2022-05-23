@@ -27,6 +27,9 @@ const Navbar = () => {
                <Link to="Testimonials" spy={true} smooth={true}>
                    <li>Testimonials</li>
                </Link>
+               <Link to="Contact" spy={true} smooth={true}>
+                   <li>Contact</li>
+               </Link>
             </ul>
         </div>
             <button className="button n-button">

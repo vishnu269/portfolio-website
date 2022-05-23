@@ -10,7 +10,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 const Services = () => {
 
-   {/* context */}
+   //context
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
 
